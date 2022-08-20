@@ -1,10 +1,13 @@
+***
 
 # SHELL PROMPT CUSTOMISATION USING **PS1**
 The special shell variable is used to control the bash prompt. These shell variables are PS1, PS2, PS3, and PS4. Each variable is used for specific purposes. The value of these variables is executed as a command before displaying the primary prompt. The PS1 variable contains the value of the default prompt. 
 
----
+***
+***
 
 ### COMMONLY USED ESCAPE SEQUENCE
+***
 | backlash-escaped Character   | purpose                                                                   |
 |------------------------------|---------------------------------------------------------------------------|
 | \u                           | It is used to display the current username.                               |
@@ -24,9 +27,11 @@ The special shell variable is used to control the bash prompt. These shell varia
 
 
 ---
+---
 
 
 ### COLORS - background and text color
+
 | Background Colors | Foreground Colors |
 |:-----------------:|:-----------------:|
 | Black = 40        | Black = 30        |
@@ -54,7 +59,7 @@ Example
 ```
 
 ---
-
+---
 
 ### KEYPOINTS
 
@@ -69,34 +74,30 @@ Example
 
 ### EXAMPLES
 
-![]("https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-1.png")
-
+- ![](https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-1.png)
 ```
 PS1="╭─────────🮙🮙 NAME\n│\u 🯊 \w\n╰─>> "
 ```
 
-![]("https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-2.png")
-
+- ![](https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-2.png)
 ```
 PS1="\[\e[32;1m╭─────────🮙🮙 NAME\n\e[32m│\e[36m\u \e[37m🯊\e[33m\w\n\e[32m╰─>> \e[0m\]"
 ```
 
-![]("https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-3.png")
+- ![](https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-3.png)
 
 ```
 PS1="\[\e[32;1m\]╭─────────\[\e[37m\]🮙🮙\[\e[32m\]\[\e[47m\] NAME \[\e[0m\]🭬\n\[\e[32m\]│\[\e[47m\]\[\e[36m\]\u \[\e[0m\]🭬\[\e[0m\]\[\e[37m\] \[\e[33m\]\w\n\[\e[32m\]╰─>> \[\[\e[0m\]"
 ```
 
-![]("https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-4.png")
+- ![](https://raw.githubusercontent.com/NARIKODANHRIDUL/imagedump/master/Shell-prompt-4.png)
 
-```
-PS1="\[\e[32;1m\]╭─────────\[\e[37m\]🮙🮙\[\e[32;47m\] NAME \[\e[0m\]🭬\n\[\e[32m\]│\[\e[90m\]🭨\[\e[36;100;1m\]\u \[\e[0;42;90m\]🭬\[\e[0;30;42;1m\]\w\[\e[0;32m\]🭬\[\e[0;32m\]\n╰─>> \[\e[0m\]"
-```
 
 ```
 PS1="\[\e[32;1m\]╭─────\[\e[38;2;200;200;160m\]🮙🮙\[\e[38;2;50;50;50;48;2;200;200;160m\] NAME \[\e[0;38;2;200;200;160m\]🭬\n\[\e[32m\]│\[\e[38;2;0;30;30m\]🭨\[\e[32;48;2;0;30;30;1m\] \u \[\e[0;42;38;2;0;30;30m\]🭬\[\e[0;42;38;2;0;40;40;1m\]\w \[\e[0;32m\]🭬\[\e[0;32m\]\n╰─>> \[\e[0m\]"
 ```
 
+---
 ---
 
 
@@ -153,6 +154,7 @@ PS1="\[\e[32;1m\]╭─────\[\e[38;2;200;200;160m\]🮙🮙\[\e[38;2;50;
 | 100–107  | Set bright background color                                  | Not in standard; originally implemented by aixterm                                                                                                                     |
 
 ---
+---
 
 ### FANCY LETTERS
 ─ 	━ 	│ 	┃ 	┄ 	┅ 	┆ 	┇ 	┈ 	┉ 	┊ 	┋ 	┌ 	┍ 	┎ 	┏
@@ -194,6 +196,7 @@ PS1="\[\e[32;1m\]╭─────\[\e[38;2;200;200;160m\]🮙🮙\[\e[38;2;50;
 ╧ 	╟ 	╚ 	╤ 	║ 	╔ 	╠ 	╢ 	╝ 	═ 	╩ 	╗ 	╣ 	╦ 	╬
 ╵ 	╶ 	└ 	╷ 	│ 	┌ 	├ 	╴ 	┘ 	─ 	┴ 	┐ 	┤ 	┬ 	┼ 
 
+---
 ---
 
 ### RESOURCES
